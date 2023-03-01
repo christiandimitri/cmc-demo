@@ -12,13 +12,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   }
-  // server: {
-  //   proxy: {
-  //     '/api': {
-  //       target: 'https://pro-api.coinmarketcap.com',
-  //       changeOrigin: true,
-  //       secure: false
-  //     }
-  //   }
-  // }
 })
