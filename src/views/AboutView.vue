@@ -1,9 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <CurrenciesTable />
   </div>
 </template>
-
+<script>
+import CurrenciesTable from '@/components/CurrenciesTable.vue'
+export default {
+  components: {
+    CurrenciesTable
+  }
+}
+</script>
 <style>
 @media (min-width: 1024px) {
   .about {
